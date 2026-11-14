@@ -1,0 +1,7 @@
+streamlit
+chromadb
+pymupdf
+langchain-text-splitters
+langchain-openai
+google-genai
+sentence-transformers
