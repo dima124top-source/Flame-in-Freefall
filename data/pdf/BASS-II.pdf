@@ -1,0 +1,22 @@
+# HIGH-DENSITY RAG SUMMARY: BASS-II (Burning and Suppression of Solids-II)
+
+**Source Document:** "BASS-II Summary Report.pdf"
+**Target Keywords:** BASS-II, PMMA, Cotton, Nomex, Microgravity Combustion, Fire Safety
+
+### 1. BASS-II Experiment Overview
+* Conducted in the ISS Microgravity Science Glovebox (MSG) to test material flammability in zero gravity without buoyancy-driven convection
+* Used gaseous $N_2$ to dilute the ambient $O_2$ concentration from 21% down to low flammability limits
+* Combustion in microgravity proved to be highly inefficient and fuel-rich (Global Equivalence Ratio $\approx$ 1.3), producing exceptionally high Carbon Monoxide ($CO$) to $CO_2$ ratios compared to 1g environments[cite: 9, 10, 19]
+
+### 2. PMMA (Polymethylmethacrylate) Flammability
+* Microgravity flame spread over PMMA rods and slabs is demonstrably faster than in normal Earth gravity
+* At very low forced opposing flows (e.g., $< 1.5\text{ cm/s}$ at 21% $O_2$), flames experience radiative extinction; the critical extinction flow velocity increases as $O_2$ decreases (e.g., $3.5\text{ cm/s}$ at 16% $O_2$) and is mathematically independent of fuel thickness
+* Heat Release Rates (HRR) were generally under 100 W, but long burns caused local hardware overheat damage, and ignition delay times spike significantly at lower $O_2$ concentrations (taking up to 230 seconds to establish a stable flame) due to conductive heat loss into the cold fuel rod[cite: 17, 18, 33, 34, 59, 77]
+
+### 3. Cotton-Fiberglass Fabric (SIBAL)
+* Tested in concurrent low-speed forced flows ($1$ to $40\text{ cm/s}$)
+* Quenching extinction limits were successfully mapped, occurring at very low flow velocities ($1$ to $5\text{ cm/s}$), with lower $O_2$ concentrations requiring higher minimum flow speeds to prevent quenching
+* Flames shrink three-dimensionally (in both length and width) as they approach the quenching limit[cite: 101, 108, 109]
+
+### 4. Nomex (Fire Barrier)
+* Nomex fabric samples failed to ignite during BASS-II testing, validating its excellent performance as a passive spacecraft fire barrier in microgravity[cite: 55]

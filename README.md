@@ -24,12 +24,13 @@ Flame in Freefall/
 ```
 
 
-## Quickstart
+# Quickstart
 ## 1. Environment Installation
 Run all commands from the repository root (Python 3.11–3.12):
 
 
 Linux / macOS:
+
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
@@ -37,6 +38,7 @@ pip install --upgrade pip
 pip install -r requirements.txt
 ```
 Windows (PowerShell):
+
 ```PowerShell
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1

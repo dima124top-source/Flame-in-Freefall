@@ -111,8 +111,13 @@ def load_and_tag_pdfs(pdf_folder: Path) -> List[Document]:
     all_docs: List[Document] = []
 
     for pdf_path in pdf_files:
-        loader = PyPDFLoader(str(pdf_path))
-        pages = loader.load()
+        # Добавляем try-except для защиты от битых PDF
+        try:
+            loader = PyPDFLoader(str(pdf_path))
+            pages = loader.load()
+        except Exception as e:
+            print(f"[ОШИБКА] Файл {pdf_path.name} поврежден и пропущен: {e}")
+            continue
 
         for page in pages:
             cleaned_text = re.sub(r"\s+", " ", page.page_content).strip()
