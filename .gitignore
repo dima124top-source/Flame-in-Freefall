@@ -1,6 +1,7 @@
-venv/
 .venv/
 __pycache__/
-*.pyc
+chroma_data/
+docstore_data/
+storage/
+desktop.ini
 .env
-.streamlit/secrets.toml
