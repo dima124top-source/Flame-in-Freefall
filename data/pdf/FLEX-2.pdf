@@ -1,0 +1,20 @@
+# HIGH-DENSITY RAG SUMMARY: FLEX-2 (Fundamental Studies in Droplet Combustion and Flame Extinguishment in Microgravity)
+
+**Source Document:** "FLEX-2 SRD Final.pdf"
+**Target Keywords:** FLEX-2, Droplet Combustion, Decane, Ethanol, Surrogate Fuels, Soot, Microgravity, Flame Extinguishment
+
+### 1. FLEX-2 Experiment Overview
+* Conducted in the ISS Combustion Integrated Rack (CIR) using the Multiple Droplet Combustion Apparatus (MDCA)
+* Environmental variables include ambient absolute pressures ranging from 0.5 to 3.0 atm, and $O_2$ mole fractions utilizing $N_2$ or He diluents. The hardware supports $O_2$ limits of 0.10 to 0.40, with the specific test matrix focusing on 0.17, 0.21, 0.25, and 0.30
+
+### 2. Pure Fuels & Sooting Dynamics
+* Contrasts a heavily sooting alkane (n-decane) with a non-sooting alcohol (ethanol) to map diffusive and radiative flame extinction boundaries in zero gravity
+* Measures soot volume fractions (SVF) and soot temperatures to quantify how soot accumulation acts as a radiative heat sink, significantly lowering the flame temperature and driving radiative flame extinction
+
+### 3. Multi-Component & Surrogate Fuels
+* Investigates liquid-phase transport, thermocapillary, and solutalcapillary flows (internal droplet mixing) using binary mixtures like n-heptane/n-hexadecane and 1-propanol/glycerol
+* Evaluates aviation fuel (JP8) surrogate blends (n-heptane/iso-octane, n-decane/n-propylbenzene) by measuring flame contraction onset, burning rates, and extinction diameters
+
+### 4. Slow Convective Flows & Droplet Arrays
+* Imposes highly controlled, sub-buoyant forced convective flows ($0.1$ to $5.0\text{ cm/s}$, $Re \sim 1$) by translating tethered droplets to observe flow-induced extinction
+* Tests binary linear droplet arrays to determine how droplet-droplet interactions shift the flammability map (neighboring droplets compete for available $O_2$ while simultaneously altering the ratio of radiative heat loss to energy release)
