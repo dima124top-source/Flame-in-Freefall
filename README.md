@@ -60,5 +60,5 @@ python scripts/indexer.py
 
 ## 4. Launch the dashboard (opens at http://localhost:8501):
 ```
-streamlit run scripts/app.py
+streamlit run scripts/apps.py
 ```
